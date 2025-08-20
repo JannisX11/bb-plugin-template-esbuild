@@ -1,8 +1,8 @@
 {
   "name": "bb-plugin-template-esbuild",
   "version": "1.0.0",
-  "description": "A template for building Blockbench plugins using Typescript and ESBuild",
-  "main": "index.js",
+  "description": "A template for building Blockbench plugins using Typescript and esbuild",
+  "main": "src/plugin.ts",
   "type": "module",
   "scripts": {
     "build": "esbuild src/plugin.ts --bundle --outfile=dist/my_plugin.js",
