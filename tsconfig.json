@@ -1,13 +1,13 @@
 {
-    "compilerOptions": {
-        "types": ["blockbench-types"],
-        "target": "es2023",
-        "module": "es2022",
-        "moduleResolution": "node",
-        "lib": ["ES2023", "DOM", "DOM.Iterable"],
-        "rootDir": "src"
-    },
-    "exclude": [
-        "node_modules"
-    ]
+  "compilerOptions": {
+    "types": ["blockbench-types"],
+    "target": "es2023",
+    "module": "es2022",
+    "moduleResolution": "bundler",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "noEmit": true,
+    "rootDir": "src"
+  },
+  "exclude": ["node_modules"]
 }
