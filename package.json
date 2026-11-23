@@ -7,14 +7,12 @@
   "scripts": {
     "build": "esbuild src/plugin.ts --bundle --outfile=dist/my_plugin.js",
     "dev": "esbuild src/plugin.ts --bundle --outfile=dist/my_plugin.js --watch"
-    
   },
   "author": "JannisX11",
   "license": "MIT",
-  "dependencies": {
-    "blockbench-types": "^5.0.0-beta.0"
-  },
   "devDependencies": {
-    "esbuild": "^0.25.9"
+    "esbuild": "^0.28.2",
+    "blockbench-types": "^5.2.1",
+    "typescript": "^7.0.2"
   }
 }
